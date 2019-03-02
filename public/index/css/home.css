@@ -1,0 +1,39 @@
+.B_unlog .wb_main{
+    height: 800px;
+}
+
+.wb_main .wb_frame{
+    padding:16px 0px;
+    margin:0px auto;
+    width: 1000px;
+}
+
+.wb_main .wb_main_left{
+    position: fixed;
+
+    top:51px;
+    left: 100px;
+
+    width: 100px;
+    height: 400px;
+    border: 1px solid #eee;
+}
+
+
+.wb_main_left li .nav_item{
+
+    display: block;
+    height: 40px;
+    line-height: 40px;
+
+    font-size: 18px;
+    color:"#000";
+
+    border-radius:3px;
+    text-align: center;
+}
+
+.wb_main_left li .cur , .wb_main_left li:hover{
+    background: linear-gradient(128deg, #fa2f2f 0%, #ff5b36 90%);
+    color: #fff;
+}
