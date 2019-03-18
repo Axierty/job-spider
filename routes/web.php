@@ -36,3 +36,12 @@ Route::get('/zlSpider','Spider\JobController@zlSpider');
 
 // 统计首页
 Route::get('/spider','Spider\IndexController@index');
+
+
+
+Route::get('/index/test/index', 'Index\TestController@index');
+Route::get('/index/test/index2', 'Index\TestController@index2');
+
+
+//日志组件路由
+Route::get('logs', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');
